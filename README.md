@@ -3,7 +3,7 @@ A lightweight region-based, semi-automatic memory manager
 
 **Compilation**: ``clang $(find ./src -name "*.c") -I./include/pallox && ./a.out``
 
-While it would easy to implement a static registry inside a "gc_handler(void)" function, the norm prevents me from doing that which making it extremely unconvenient (passing a registry_t * variable to every single function).
+While it would be easy to implement a static registry inside a "gc_handler(void)" function, the norm prevents me from doing that which makes it extremely unconvenient (passing a registry_t * variable to every single function).
 
 Therefore, the better approach would be to use macros with compiler attributes.
 However, while it is way more convenient, this seems more like a GC than an arena memory manager.
