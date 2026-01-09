@@ -8,7 +8,7 @@ While it would be easy to implement a static registry inside a "gc_handler(void)
 Therefore, the better approach would be to use macros with compiler attributes.
 However, while it is way more convenient, this seems more like a GC than an arena memory manager.
 
-Here would be a header of that approach:
+Here would be a header for that approach:
 ```c
 #ifndef ROUTINES_H_
     #define ROUTINES_H_
