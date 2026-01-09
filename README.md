@@ -1,7 +1,7 @@
 # Pallox
 A lightweight region-based, semi-automatic memory manager
 
-clang $(find ./src -name "*.c") -I./include/pallox && ./a.out
+**Compilation**: ``clang $(find ./src -name "*.c") -I./include/pallox && ./a.out``
 
 While it would easy to implement a static registry inside a "gc_handler(void)" function, the norm prevents me from doing that which making it extremely unconvenient (passing a registry_t * variable to every single function).
 
