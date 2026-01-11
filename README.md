@@ -1,4 +1,7 @@
 # Pallox
+
+New version: https://github.com/Kolbxyz/My_STL
+
 A lightweight region-based, semi-automatic memory manager
 
 **Compilation**: ``clang $(find ./src -name "*.c") -I./include/pallox && ./a.out``
